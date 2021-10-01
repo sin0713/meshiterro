@@ -67,4 +67,7 @@ gem "refile-mini_magick"
 
 gem 'devise'
 
+gem 'kaminari', '~> 1.2.1'
+
+
 
