@@ -6,7 +6,7 @@
         <%= form_with model:@user, local:true do |f| %>
           <div class="input-group my-3">
             <div class="input-group-prepend">
-              <span class="input-group-text"><i></i></span>
+              <span class="input-group-text"><i class="far fa-user-circle"></i></span>
             </div>
             <%= f.text_field :name, autofocus: true, id:"inputName", placeholder:"名前",  class:"form-control" %>
             
